@@ -182,7 +182,9 @@ def quadratic(a):
 for i in range(G.shape[0]):
     F.append(quadratic(G[i,:]))
     print(quadratic(G[i,:]), f[i])
-    
+```
+## Usage of the function retrieved in this first attempt and calculation of the points measured 
+   
 ```
 
     111.42267363866827 108.55
@@ -279,7 +281,7 @@ for i in range(G.shape[0]):
     32.94308060249996 -16.95
     42.91760935842865 68.05
     25.5393600068028 3.53
-    
+```    
 
 # Correlation check
 
@@ -581,7 +583,9 @@ for i in range(G.shape[0]):
     F.append(quadratic(G[i,:]))
     print(quadratic(G[i,:]), f[i])
 
-    
+```
+## Usage of the function retrieved in this second attempt and calculation of the points measured 
+
 ```
 
     121.89347007846484 108.55
@@ -674,7 +678,7 @@ for i in range(G.shape[0]):
     49.36685409804783 68.05
     30.118719741420584 3.53
     
-
+```
 # Pearson coefficient 2nd iteration
 
 
@@ -766,6 +770,8 @@ C,C1, C2, C3 = scipy.linalg.lstsq(A3, f)
 for i in range(G.shape[0]):
     F.append(np.sum(np.dot(A3[i,:], C)))
     print(np.sum(np.dot(A3[i,:], C)),f[i],z[i])
+```
+## Usage of the function retrieved in this third attempt and calculation of the points measured, ext to them depth of sample is shown
 
 ```
 
