@@ -283,11 +283,11 @@ for i in range(G.shape[0]):
     25.5393600068028 3.53
 ```    
 
-# Correlation check
+## Correlation check
 
 Using scipy.stats an correlation analysis is done to measure the accuracy of the model
 
-## Pearson coefficient
+### Pearson coefficient
 
 
 ```python
@@ -303,7 +303,7 @@ scipy.stats.pearsonr(F, f)[0]
 
 
 
-## Spearman coefficient
+### Spearman coefficient
 
 
 ```python
@@ -317,7 +317,7 @@ scipy.stats.spearmanr(F, f)[0]
 
 
 
-## Kendall Tau coefficient
+### Kendall Tau coefficient
 
 
 ```python
@@ -445,7 +445,7 @@ df2
 
 
 
-# Reset index
+## Reset index
 
 
 ```python
@@ -679,7 +679,7 @@ for i in range(G.shape[0]):
     30.118719741420584 3.53
     
 ```
-# Pearson coefficient 2nd iteration
+## Pearson coefficient 2nd iteration
 
 
 ```python
@@ -693,7 +693,7 @@ scipy.stats.pearsonr(F, f)[0]
 
 
 
-# Spearman coefficient 2nd iteration
+## Spearman coefficient 2nd iteration
 
 
 
@@ -708,7 +708,7 @@ scipy.stats.spearmanr(F, f)[0]
 
 
 
-# Kendall Tau coefficient 2nd iteration
+## Kendall Tau coefficient 2nd iteration
 
 
 
@@ -771,7 +771,7 @@ for i in range(G.shape[0]):
     F.append(np.sum(np.dot(A3[i,:], C)))
     print(np.sum(np.dot(A3[i,:], C)),f[i],z[i])
 ```
-## Usage of the function retrieved in this third attempt and calculation of the points measured, ext to them depth of sample is shown
+### Usage of the function retrieved in this third attempt and calculation of the points measured, ext to them depth of sample is shown
 
 ```
 
@@ -864,9 +864,9 @@ for i in range(G.shape[0]):
     34.047864965893524 37.19 12
     43.44444403575337 68.05 18
     29.554918432332602 3.53 8
-    
+```    
 
-# Pearson coefficient 3rd iteration (cubic model)
+## Pearson coefficient 3rd iteration (cubic model)
 
 
 ```python
@@ -880,7 +880,7 @@ scipy.stats.pearsonr(F, f)[0]
 
 
 
-# Spearman coefficient 3rd iteration (cubic model)
+### Spearman coefficient 3rd iteration (cubic model)
 
 
 ```python
@@ -894,7 +894,7 @@ scipy.stats.spearmanr(F, f)[0]
 
 
 
-# Kendall Tau coefficient 3rd iteration (cubic model)
+### Kendall Tau coefficient 3rd iteration (cubic model)
 
 
 ```python
@@ -908,7 +908,7 @@ scipy.stats.kendalltau(F, f)[0]
 
 
 
-# Coefficients of cubic model
+## Coefficients of cubic model
 
 
 ```python
@@ -940,7 +940,7 @@ C
 
 0.7026160157381666
 
-# Visualisation of model in 3d
+# Visualisation of cubic model in 3d
 
 Using the tool Mayavi, the model in 3d is plotted.
 
