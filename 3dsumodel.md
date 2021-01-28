@@ -32,19 +32,8 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -158,7 +147,7 @@ plt.show()
 
 In this part scipy is used to model the shear undrained stregth based on the position of the sample taken:
 
-f(x, y, z) = ax**2 + by**2 + cz**2 + dxy+ exz + fyz + gx + hy + iz + j
+![](https://latex.codecogs.com/gif.latex?f(x,y,z)=ax^2&space;&plus;&space;by^2&space;&plus;&space;cz^2&space;&plus;&space;dxz&space;&plus;&space;eyz&space;&plus;&space;gxy&space;&plus;&space;hx&space;&plus;&space;iy&space;&plus;&space;jz&space;&plus;&space;k)
 
 In order to accomplish this, scipy.linalg.lstsq is used. This solves the equation Ax = b
 
@@ -358,19 +347,7 @@ df2
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -478,19 +455,7 @@ df2
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -761,8 +726,7 @@ scipy.stats.kendalltau(F, f)[0]
 
 Below the model is computed to retrieve te model in a cubic function in the form:
 
-f(x, y, z) = ax**3 + by**3 + cz**3 + dx**2y+ ex**2z + fy**2z + gz**2y + hy**2x + iz**2x + jxyz + kx**2 + ly**2 + mz**2 + nxz + oxy + pzy + rx + sy + tz + u
-
+![](https://latex.codecogs.com/gif.latex?f(x,y,z)=ax^3&space;&plus;&space;by^3&space;&plus;&space;cz^3&space;&plus;&space;dx^2z&space;&plus;&space;ey^2z&space;&plus;&space;gx^2y&space;&plus;&space;hxz^2&space;&plus;&space;iyz^2&space;&plus;&space;jxy^2&space;&plus;&space;kxz&space;&plus;&space;lyz&space;&plus;&space;mxy&space;&plus;&space;nx^2&space;&plus;&space;oy^2&space;&plus;&space;pxyz&space;&plus;&space;qz^2&space;&plus;&space;rx&space;&plus;&space;sy&space;&plus;&space;tz&space;&plus;&space;u)
 
 
 
@@ -896,7 +860,7 @@ for i in range(G.shape[0]):
     29.554918432332602 3.53 8
     
 
-# Pearson coefficient 3rd iteration
+# Pearson coefficient 3rd iteration (cubic model)
 
 
 ```python
@@ -910,7 +874,7 @@ scipy.stats.pearsonr(F, f)[0]
 
 
 
-# Spearman coefficient 3rd iteration
+# Spearman coefficient 3rd iteration (cubic model)
 
 
 ```python
@@ -924,7 +888,7 @@ scipy.stats.spearmanr(F, f)[0]
 
 
 
-# Kendall Tau coefficient 3rd iteration
+# Kendall Tau coefficient 3rd iteration (cubic model)
 
 
 ```python
@@ -958,19 +922,19 @@ C
 
 # Comparison of Pearson's coefficient
 
-## First quadratic iteration
+## First iteration (cuadratic)
 
 0.5374491129145494
 
-## Second quadratic iteration
+## Second iteration (quadratic)
 
 0.6728982346382903
 
-## Third cubic iteration
+## Third iteration (cubic)
 
 0.7026160157381666
 
-# Visualisation of model in 3rd
+# Visualisation of model in 3d
 
 Using the tool Mayavi, the model in 3d is plotted.
 
