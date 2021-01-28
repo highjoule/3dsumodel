@@ -866,7 +866,7 @@ for i in range(G.shape[0]):
     29.554918432332602 3.53 8
 ```    
 
-## Pearson coefficient 3rd iteration (cubic model)
+### Pearson coefficient 3rd iteration (cubic model)
 
 
 ```python
