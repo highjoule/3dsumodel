@@ -928,7 +928,7 @@ C
 
 # Comparison of Pearson's coefficient
 
-## First iteration (cuadratic)
+## First iteration (quadratic)
 
 0.5374491129145494
 
