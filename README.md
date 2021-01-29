@@ -9,4 +9,4 @@ This algorithm works with the next libraries
 2. scipy
 3. matplotlib
 4. numpy
-5. mayalib. Check ![here](https://pypi.org/project/mayavi/) to read how to install this library easily and support features.
+5. mayalib. Check *[`here`](https://pypi.org/project/mayavi/) to read how to install this library easily and support features.
