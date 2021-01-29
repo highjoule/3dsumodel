@@ -141,7 +141,7 @@ plt.show()
 ```
 
 
-![alt text](https://github.com/highjoule/3dsumodel/blob/main/3dpoints.png)
+![alt text](https://github.com/highjoule/3dsumodel/blob/main/images/3dpoints.png)
 
 # Quadratic fit
 
@@ -977,17 +977,17 @@ mlab.outline()
 mlab.show()
 
 ```
-![Heat map of 3d cubic model 1](https://github.com/highjoule/3dsumodel/blob/main/mayavi1.png)
+![Heat map of 3d cubic model 1](https://github.com/highjoule/3dsumodel/blob/main/images/mayavi1.png)
 
 ```python
 
 ```
-![Heat map of 3d cubic model 2](https://github.com/highjoule/3dsumodel/blob/main/mayavi2.png)
+![Heat map of 3d cubic model 2](https://github.com/highjoule/3dsumodel/blob/main/images/mayavi2.png)
 
 ```python
 
 ```
-![Heat map of 3d cubic model 3](https://github.com/highjoule/3dsumodel/blob/main/mayavi3.png)
+![Heat map of 3d cubic model 3](https://github.com/highjoule/3dsumodel/blob/main/images/mayavi3.png)
 
 ```python
 
